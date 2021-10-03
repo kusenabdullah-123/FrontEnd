@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bangun Datar</title>
+  </head>
+  <body>
+    <script type="module">
+      import cekBangun from "./cek-bangun.js";
+
+      const bangun = parseInt(
+        prompt(
+          "pilih bangun datar : 1.persegi 2.persegi panjang 3. segitita 4. jajar genjang 5. Belah Ketupat"
+        )
+      );
+      cekBangun(bangun);
+    </script>
+  </body>
+</html>
