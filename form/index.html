@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="input-nama">
+          <label for="nama">Nama </label>
+          <input type="text" name="nama" id="nama" />
+        </div>
+        <div class="input-email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="input-jenis">
+          <label for="jenis">Jenis Kelamin</label>
+          <input type="radio" name="jenis" value="L" id="laki-laki" checked />
+          <label for="laki-laki">Laki-Laki</label>
+          <input type="radio" name="jenis" value="P" id="perempuan" />
+          <label for="perempuan">Perempuan</label>
+        </div>
+        <div class="input-agama">
+          <label for="agama">Agama</label>
+          <select name="agama" id="agama">
+            <option selected value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Katolik">Katolik</option>
+          </select>
+        </div>
+        <div class="input-alamat">
+          <label for="alamat">Alamat</label>
+          <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+        </div>
+        <div class="button">
+          <button id="submit">Kirim</button>
+        </div>
+      </div>
+      <div class="output"></div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

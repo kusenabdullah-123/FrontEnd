@@ -1,0 +1,28 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  height: 500px;
+  box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+  width: 30%;
+  margin-right: 20px;
+}
+.container div {
+  margin: 10px;
+}
+.container .button button {
+  height: 35px;
+  width: 60px;
+}
+.container .button button:hover {
+  cursor: pointer;
+}
+.output label {
+  font-size: 19px;
+  margin: 10px 0px 10px 0px;
+  text-transform: capitalize;
+}
+.output output {
+  font-size: 18px;
+}
