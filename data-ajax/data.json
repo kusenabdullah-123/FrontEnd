@@ -1,0 +1,39 @@
+{
+  "artikel": [
+    {
+      "judul": "dua",
+      "desc": "descriptions dua",
+      "id": 2
+    },
+    {
+      "judul": "tiga",
+      "desc": "tiga",
+      "id": 3
+    },
+    {
+      "judul": "empat",
+      "desc": "empat",
+      "id": 4
+    },
+    {
+      "judul": "lima",
+      "desc": "lima",
+      "id": 5
+    },
+    {
+      "judul": "enam",
+      "desc": "enam",
+      "id": 6
+    },
+    {
+      "judul": "tujuh",
+      "desc": "tujuh",
+      "id": 7
+    },
+    {
+      "judul": "delapan",
+      "desc": "delapan",
+      "id": 8
+    }
+  ]
+}
